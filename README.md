@@ -5,7 +5,7 @@ Main code of "Disentangle Irrelevant and Critical Representations for Face Anti-
 ## Main Dependencies
 
 ```
-python=3.6
+python=3.8
 pytorch=1.10.0+cu113
 ```
 
