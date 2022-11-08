@@ -236,7 +236,7 @@ class TestDataset(Dataset):
 class DisplayDataset(Dataset):
     '''用来展示不同类别的欺骗攻击在潜在特征空间中的分布'''
     def __init__(self, params,phase='test'):
-        '''is_live: 是否加载live数据集（testA）'''
+        
         super(DisplayDataset, self).__init__()
         self.data_root = params['data_root']
         self.PAI_dict = {'print1':1, 'print2':2, 'replay1':3, 'replay2':4}

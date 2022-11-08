@@ -105,7 +105,7 @@ class Generator(nn.Module):
 ##################################################################################
 # --------------------------------------Encoder-----------------------------------
 ##################################################################################
-# 将编码spoof-irrelevant特征的encoder和编码spoof-relevant特征的encoder合并在一
+# 将编码spoof-irrelevant（critical representation）特征的encoder和编码spoof-relevant(irrelevant representation)特征的encoder合并在一
 # 个Encoder类中是因为这两个encoder有些层是共享参数的
 class Encoder(nn.Module):
     def __init__(self, in_channels, norm, params):
