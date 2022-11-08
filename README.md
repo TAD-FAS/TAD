@@ -43,6 +43,12 @@ The hardware environment is Nvidia A40 GPU.
 |  |  |--...
 ```
 
+Image naming Rules：
+
+live images exsample: 000000.jpg, 000001.jpg ...
+
+spoof image exsample: 000000_print1_.jpg, 000020_print2_.jpg, 000040_replay1_.jpg, 000060_replay2_.jpg, 
+
 ## Training
 
 Before training TAD, the following things need to be done.
