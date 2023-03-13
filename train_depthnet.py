@@ -22,8 +22,8 @@ import torch.nn.functional as fun
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--resume", action="store_true")
-parser.add_argument('--output_path', type=str, default='../autodl-tmp', help="outputs path")  # ../autodl-tmp
-parser.add_argument('--model_save_path', type=str, default='../autodl-tmp', help="pre-trained depth model save path")  # ../autodl-tmp
+parser.add_argument('--output_path', type=str, default='outputs', help="outputs path")  # outputs
+parser.add_argument('--model_save_path', type=str, default='outputs', help="pre-trained depth model save path")  # ../autodl-tmp
 opts = parser.parse_args()
 # Load experiment setting
 config = get_config('./configs/oulu_npu.yaml')
